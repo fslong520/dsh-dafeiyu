@@ -1,0 +1,20 @@
+# Dependencies
+node_modules/
+
+# Packaging artifacts
+*.tgz
+
+# Test / tool run residue
+.test-home/
+coverage/
+tmp/
+*.tmp
+*.log
+
+# Environment & credentials (never commit)
+.env
+.env.*
+
+# OS noise
+.DS_Store
+Thumbs.db

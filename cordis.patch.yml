@@ -1,0 +1,5 @@
+# dafeiyu bundle patch: register the plugin in the profile plugin table.
+# A user-level insert of the same id takes precedence over this line.
+- insert:
+    - id: dafeiyu
+      name: '@fslong/dsh-dafeiyu'
